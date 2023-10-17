@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+.parent_container{
+    background-color: #fff;
+    width: 320px;
+    margin: auto;
+    height: 100vh;
+    border-radius: 10px;
+}
+.parent_container .stopper{
+    width: 230px;
+    background-color: rgb(255, 252, 252);
+    margin: auto;
+    height: 100vh;
+} 
+.parent_container .stopper h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
+form{
+  padding-top: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  /* size: 20px; */
+}
+input{
+    width: 230px;
+}
+input[type=text] {
+    border: #fff;
+    /* border-bottom: 2px solid rgb(111, 104, 104); */
+    /* padding: 5px 8px; */
+    outline: 0;
+    
+}
+
+input[type=password] {
+    border: none;
+    /* border-bottom: 2px solid rgb(111, 104, 104); */
+    /* padding: 5px 8px; */
+    outline: 0;
+}
+:placeholder-shown{
+    font-size: xx-small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent_container .stopper a p{
+    font-size: x-small;
+    color: rgb(111, 104, 104);
+    padding-top: 10px;
+    text-align: end;
+}
+.parent_container .stopper a{
+    text-decoration: none;
+}
+
+button{
+    width: 230px;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 12px;
+    color: #fff;
+  background:  linear-gradient(to right,#ec008c, #fc6767);
+  border: none;
+}
+.parent_container .stopper a h4{
+    color:black;
+    padding-top: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bolder;
+}
+.parent_container .stopper .socials{
+    margin: auto;
+    text-align: center;
+}
+.parent_container .socials .stopper i{
+    color: black;
+    font-size: 10px;
+}
+form i{
+font-size: 10px;
+padding-right: 10px;
+}
+.user{
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+
+}
+.pass{
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
